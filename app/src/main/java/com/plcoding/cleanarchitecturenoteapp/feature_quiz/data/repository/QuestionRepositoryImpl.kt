@@ -22,7 +22,7 @@ class QuestionRepositoryImpl(
         dao.createQuestion(question)
     }
 
-    override suspend fun addAnswer(answer: Answer,) {
+    override suspend fun addAnswer(answer: Answer) {
         dao.addAnswer(answer)
     }
 

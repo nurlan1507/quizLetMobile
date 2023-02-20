@@ -15,7 +15,11 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             CleanArchitectureNoteAppTheme {
-                
+                androidx.compose.material.Surface(
+                    color = MaterialTheme.colors.background
+                ) {
+
+                }
             }
         }
     }

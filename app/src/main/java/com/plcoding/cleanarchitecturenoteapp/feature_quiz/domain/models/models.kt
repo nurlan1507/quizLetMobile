@@ -7,7 +7,8 @@ data class Quiz(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name="quiz_id")
     val id:Int,
-
+    val date:Long,
+    val description:String,
     val title:String
 )
 
